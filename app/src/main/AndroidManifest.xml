@@ -13,6 +13,15 @@
         android:theme="@style/Theme.WordmindedXml"
         tools:targetApi="31">
         <activity
+            android:name=".settings.SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".rules.RulesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".game.GameActivity"
+            android:exported="false" />
+        <activity
             android:name=".menu.MenuActivity"
             android:exported="true">
             <intent-filter>
