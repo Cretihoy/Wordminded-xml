@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="?colorOnPrimary"
     android:orientation="vertical"
     tools:context=".rules.RulesActivity">
 
@@ -13,12 +15,15 @@
         android:layout_margin="20dp"
         android:text="Rules"
         android:textAlignment="center"
+        android:textColor="?colorOnSecondary"
         android:textSize="40sp" />
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp">
+        android:layout_margin="20dp"
+        android:backgroundTint="?colorSecondary"
+        app:cardCornerRadius="20dp">
 
         <TextView
             android:layout_width="match_parent"
@@ -32,7 +37,9 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp">
+        android:layout_margin="20dp"
+        android:backgroundTint="?colorPrimary"
+        app:cardCornerRadius="20dp">
 
         <TextView
             android:layout_width="match_parent"
@@ -46,7 +53,9 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp">
+        android:layout_margin="20dp"
+        android:backgroundTint="?colorSecondary"
+        app:cardCornerRadius="20dp">
 
         <TextView
             android:layout_width="match_parent"
