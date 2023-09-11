@@ -13,8 +13,8 @@ import javax.inject.Provider
 class GameActivity : MvpAppCompatActivity(), GameView {
 
     val letterTop: TextView by lazy { findViewById(R.id.game_letter_top) }
-    val questionTop: TextView by lazy { findViewById(R.id.game_question_top) }
-    val questionBottom: TextView by lazy { findViewById(R.id.game_question_bottom) }
+    val questionTop: TextView by lazy { findViewById(R.id.game_task_top) }
+    val questionBottom: TextView by lazy { findViewById(R.id.game_task_bottom) }
     val letterBottom: TextView by lazy { findViewById(R.id.game_letter_bottom) }
 
     @Inject
