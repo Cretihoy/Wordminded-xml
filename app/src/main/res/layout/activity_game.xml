@@ -20,6 +20,7 @@
         app:cardCornerRadius="20dp">
 
         <TextView
+            android:id="@+id/game_letter_top"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
@@ -42,6 +43,7 @@
         app:cardCornerRadius="20dp">
 
         <TextView
+            android:id="@+id/game_question_top"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
@@ -63,6 +65,7 @@
         app:cardCornerRadius="20dp">
 
         <TextView
+            android:id="@+id/game_question_bottom"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
@@ -84,6 +87,7 @@
         app:cardCornerRadius="20dp">
 
         <TextView
+            android:id="@+id/game_letter_bottom"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
