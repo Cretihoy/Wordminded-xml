@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_big_size">20dp</dimen>
+    <dimen name="margin_medium_size">10dp</dimen>
+
+    <dimen name="text_big_size">40sp</dimen>
+    <dimen name="text_medium_size">20sp</dimen>
+
+    <dimen name="corner_radius">20dp</dimen>
+</resources>
