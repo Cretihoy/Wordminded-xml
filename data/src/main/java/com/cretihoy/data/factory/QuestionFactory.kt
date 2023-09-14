@@ -3,13 +3,19 @@ package com.cretihoy.data.factory
 import com.cretihoy.data.R
 import com.cretihoy.data.model.LetterModel
 import com.cretihoy.data.model.TaskModel
+import com.cretihoy.data.storage.Storage
 import javax.inject.Inject
 
 class QuestionFactory
-@Inject constructor() {
+@Inject constructor(
+    private val storage: Storage
+) {
 
-    private var regularLetterList = (getLetterList() + getLetterList()).toMutableList()
+    private var regularLetterList = getLetterList().toMutableList()
     private var regularTaskList = getTaskList().toMutableList()
+    private val infinityLetterList = getLetterList().toList()
+    private val infinityTaskList = getTaskList().toList()
+    private val isInfinityGame by lazy { storage.isInfinityGame }
 
     fun getRandomRegularTask(): TaskModel? {
         val task = regularTaskList.randomOrNull()
@@ -23,6 +29,28 @@ class QuestionFactory
         val index = regularLetterList.indexOf(letter)
         if (index >= 0) regularLetterList.removeAt(index)
         return letter
+    }
+
+    private fun getRandomInfinityTask(): TaskModel {
+        return infinityTaskList.random()
+    }
+
+    private fun getRandomInfinityLetter(): LetterModel {
+        return infinityLetterList.random()
+    }
+
+    fun getRandomTask(): TaskModel? {
+        return if (isInfinityGame)
+            getRandomInfinityTask()
+        else
+            getRandomRegularTask()
+    }
+
+    fun getRandomLetter(): LetterModel? {
+        return if (isInfinityGame)
+            getRandomInfinityLetter()
+        else
+            getRandomRegularLetter()
     }
 
     private fun getLetterList(): List<LetterModel> {
