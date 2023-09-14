@@ -11,16 +11,13 @@ class GamePresenter
     private val factory: QuestionFactory
 ) : MvpPresenter<GameView>() {
 
-    val letter = factory.getRandomLetter()
-    val task = factory.getRandomTask()
-
-    override fun onFirstViewAttach() {
-        super.onFirstViewAttach()
-
-        showQuestion()
-    }
-
-    private fun showQuestion() {
-        viewState.showQuestions(letter, task)
+    fun onScreenClicked() {
+        val task = factory.getRandomTask()
+        val letter = factory.getRandomLetter()
+        if (task != null && letter != null) {
+            viewState.showQuestion(letter, task)
+        } else {
+            viewState.openEndGameScreen()
+        }
     }
 }
