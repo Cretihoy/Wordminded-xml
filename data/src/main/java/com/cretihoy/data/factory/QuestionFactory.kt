@@ -8,19 +8,21 @@ import javax.inject.Inject
 class QuestionFactory
 @Inject constructor() {
 
-    private var letterList = mutableListOf<LetterModel>()
-    private var taskList = mutableListOf<TaskModel>()
+    private var regularLetterList = (getLetterList() + getLetterList()).toMutableList()
+    private var regularTaskList = getTaskList().toMutableList()
 
-    fun getRandomLetter(): LetterModel? {
-        val currentLetter = getLetterList().randomOrNull()
-        letterList.remove(currentLetter)
-        return currentLetter
+    fun getRandomRegularTask(): TaskModel? {
+        val task = regularTaskList.randomOrNull()
+        val index = regularTaskList.indexOf(task)
+        if (index >= 0) regularTaskList.removeAt(index)
+        return task
     }
 
-    fun getRandomTask(): TaskModel? {
-        val currentTask = getTaskList().randomOrNull()
-        taskList.remove(currentTask)
-        return currentTask
+    fun getRandomRegularLetter(): LetterModel? {
+        val letter = regularLetterList.randomOrNull()
+        val index = regularLetterList.indexOf(letter)
+        if (index >= 0) regularLetterList.removeAt(index)
+        return letter
     }
 
     private fun getLetterList(): List<LetterModel> {

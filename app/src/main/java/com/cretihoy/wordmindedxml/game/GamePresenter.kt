@@ -12,8 +12,8 @@ class GamePresenter
 ) : MvpPresenter<GameView>() {
 
     fun onScreenClicked() {
-        val task = factory.getRandomTask()
-        val letter = factory.getRandomLetter()
+        val task = factory.getRandomRegularTask()
+        val letter = factory.getRandomRegularLetter()
         if (task != null && letter != null) {
             viewState.showQuestion(letter, task)
         } else {
