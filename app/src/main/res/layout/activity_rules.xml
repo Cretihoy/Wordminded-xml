@@ -12,58 +12,73 @@
         android:id="@+id/rules_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:text="Rules"
+        android:layout_marginStart="@dimen/margin_big_size"
+        android:layout_marginTop="@dimen/margin_big_size"
+        android:layout_marginEnd="@dimen/margin_big_size"
+        android:layout_marginBottom="@dimen/margin_medium_size"
+        android:text="@string/text_rules"
         android:textAlignment="center"
         android:textColor="?colorOnSecondary"
-        android:textSize="40sp" />
+        android:textSize="@dimen/text_big_size" />
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
+        android:layout_marginStart="@dimen/margin_big_size"
+        android:layout_marginTop="@dimen/margin_medium_size"
+        android:layout_marginEnd="@dimen/margin_big_size"
+        android:layout_marginBottom="@dimen/margin_medium_size"
         android:backgroundTint="?colorSecondary"
-        app:cardCornerRadius="20dp">
+        app:cardCornerRadius="@dimen/corner_radius">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="20dp"
+            android:layout_margin="@dimen/margin_big_size"
             android:text="@string/rules_text_one"
             android:textAlignment="center"
-            android:textSize="20sp" />
+            android:textColor="?colorOnSecondary"
+            android:textSize="@dimen/text_medium_size" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
+        android:layout_marginStart="@dimen/margin_big_size"
+        android:layout_marginTop="@dimen/margin_medium_size"
+        android:layout_marginEnd="@dimen/margin_big_size"
+        android:layout_marginBottom="@dimen/margin_medium_size"
         android:backgroundTint="?colorPrimary"
-        app:cardCornerRadius="20dp">
+        app:cardCornerRadius="@dimen/corner_radius">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="20dp"
+            android:layout_margin="@dimen/margin_big_size"
             android:text="@string/rules_text_two"
             android:textAlignment="center"
-            android:textSize="20sp" />
+            android:textColor="?colorOnSecondary"
+            android:textSize="@dimen/text_medium_size" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
+        android:layout_marginStart="@dimen/margin_big_size"
+        android:layout_marginTop="@dimen/margin_medium_size"
+        android:layout_marginEnd="@dimen/margin_big_size"
+        android:layout_marginBottom="@dimen/margin_big_size"
         android:backgroundTint="?colorSecondary"
-        app:cardCornerRadius="20dp">
+        app:cardCornerRadius="@dimen/corner_radius">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="20dp"
+            android:layout_margin="@dimen/margin_big_size"
             android:text="@string/rules_text_three"
             android:textAlignment="center"
-            android:textSize="20sp" />
+            android:textColor="?colorOnSecondary"
+            android:textSize="@dimen/text_medium_size" />
     </androidx.cardview.widget.CardView>
 
 </LinearLayout>
