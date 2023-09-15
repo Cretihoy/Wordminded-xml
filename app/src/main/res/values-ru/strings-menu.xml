@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_start_button">Играть</string>
+    <string name="menu_rules_button">Правила</string>
+    <string name="menu_settings_button">Настройки</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_start_button">Start</string>
+    <string name="menu_rules_button">Rules</string>
+    <string name="menu_settings_button">Settings</string>
+</resources>
