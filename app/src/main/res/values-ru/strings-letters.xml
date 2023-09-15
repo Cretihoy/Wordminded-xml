@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="letter_01">А</string>
+    <string name="letter_02">Б</string>
+    <string name="letter_03">В</string>
+    <string name="letter_04">Г</string>
+    <string name="letter_05">Д</string>
+    <string name="letter_06">Е,Ё</string>
+    <string name="letter_07">Ж</string>
+    <string name="letter_08">З</string>
+    <string name="letter_09">И,Й</string>
+    <string name="letter_10">К</string>
+    <string name="letter_11">Л</string>
+    <string name="letter_12">М</string>
+    <string name="letter_13">Н</string>
+    <string name="letter_14">О</string>
+    <string name="letter_15">П</string>
+    <string name="letter_16">P</string>
+    <string name="letter_17">С</string>
+    <string name="letter_18">Т</string>
+    <string name="letter_19">У</string>
+    <string name="letter_20">Ф</string>
+    <string name="letter_21">Ч</string>
+    <string name="letter_22">Ц</string>
+    <string name="letter_23">Ч</string>
+    <string name="letter_24">Ш,Щ</string>
+    <string name="letter_25">Э,Ю</string>
+    <string name="letter_26">Я</string>
+</resources>

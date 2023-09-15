@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="letter_01">A</string>
+    <string name="letter_02">B</string>
+    <string name="letter_03">C</string>
+    <string name="letter_04">D</string>
+    <string name="letter_05">E</string>
+    <string name="letter_06">F</string>
+    <string name="letter_07">G</string>
+    <string name="letter_08">H</string>
+    <string name="letter_09">I</string>
+    <string name="letter_10">J</string>
+    <string name="letter_11">K</string>
+    <string name="letter_12">L</string>
+    <string name="letter_13">M</string>
+    <string name="letter_14">N</string>
+    <string name="letter_15">O</string>
+    <string name="letter_16">P</string>
+    <string name="letter_17">Q</string>
+    <string name="letter_18">R</string>
+    <string name="letter_19">S</string>
+    <string name="letter_20">T</string>
+    <string name="letter_21">U</string>
+    <string name="letter_22">V</string>
+    <string name="letter_23">W</string>
+    <string name="letter_24">X</string>
+    <string name="letter_25">Y</string>
+    <string name="letter_26">Z</string>
+</resources>
