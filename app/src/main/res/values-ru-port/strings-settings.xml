@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_title">НАСТРОЙКИ</string>
+    <string name="settings_switch_change_infinity">Бесконечная игра</string>
+</resources>
