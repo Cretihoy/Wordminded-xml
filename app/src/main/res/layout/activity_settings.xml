@@ -7,6 +7,19 @@
     android:orientation="vertical"
     tools:context=".settings.SettingsActivity">
 
+    <TextView
+        android:id="@+id/settings_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_big_size"
+        android:layout_marginTop="@dimen/margin_big_size"
+        android:layout_marginEnd="@dimen/margin_big_size"
+        android:layout_marginBottom="@dimen/margin_medium_size"
+        android:text="@string/settings_title"
+        android:textAlignment="center"
+        android:textColor="?colorOnSecondary"
+        android:textSize="@dimen/text_big_size" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -17,7 +30,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/margin_big_size"
             android:layout_weight="1"
-            android:text="Infinity Game"
+            android:text="@string/settings_switch_change_infinity"
             android:textAlignment="center"
             android:textColor="?colorOnSecondary"
             android:textSize="30sp" />
