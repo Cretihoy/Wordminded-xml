@@ -16,7 +16,7 @@
         android:layout_marginEnd="@dimen/margin_big_size"
         android:layout_marginBottom="@dimen/margin_medium_size"
         android:layout_weight="1"
-        android:text="@string/text_rules"
+        android:text="@string/rules_title"
         android:textAlignment="center"
         android:textColor="?colorOnSecondary"
         android:textSize="@dimen/text_big_size" />
@@ -84,6 +84,7 @@
                     android:textAlignment="center"
                     android:textColor="?colorOnSecondary"
                     android:textSize="@dimen/text_medium_size" />
+
             </androidx.cardview.widget.CardView>
         </LinearLayout>
     </ScrollView>

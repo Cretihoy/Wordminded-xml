@@ -97,5 +97,6 @@
             android:textColor="?colorOnSecondary"
             android:textSize="@dimen/text_medium_size"
             tools:text="A" />
+
     </androidx.cardview.widget.CardView>
 </LinearLayout>
