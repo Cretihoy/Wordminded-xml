@@ -2,4 +2,7 @@
 <resources>
     <string name="settings_title">НАСТРОЙКИ</string>
     <string name="settings_switch_change_infinity">Бесконечная игра</string>
+    <string name="settings_counter_change_font_size">Размер шрифта</string>
+    <string name="settings_counter_minus">-</string>
+    <string name="settings_counter_plus">+</string>
 </resources>
